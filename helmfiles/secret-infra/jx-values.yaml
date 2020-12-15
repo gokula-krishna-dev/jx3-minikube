@@ -30,16 +30,20 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: gokula-krishna-dev
+    repository: jx3-minikube
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: 192.168.99.112.nip.io
     externalDNS: false
     namespaceSubDomain: -secret-infra.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: gokula-krishna-dev
   repository: bucketrepo
   secretStorage: vault
   vault: {}
