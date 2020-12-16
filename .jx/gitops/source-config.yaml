@@ -9,4 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: go-jks-test
+    - name: go-jkx-test
+    - name: golang-jx
+    - name: new-go-lang
     scheduler: in-repo
