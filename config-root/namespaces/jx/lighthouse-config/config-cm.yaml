@@ -14,6 +14,7 @@ data:
         gokula-krishna-dev/golang-jx: true
         gokula-krishna-dev/jx3-minikube: true
         gokula-krishna-dev/new-go-lang: true
+        gokula-krishna-dev/py-jx: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -32,6 +33,7 @@ data:
         gokula-krishna-dev/golang-jx: merge
         gokula-krishna-dev/jx3-minikube: merge
         gokula-krishna-dev/new-go-lang: merge
+        gokula-krishna-dev/py-jx: merge
       queries:
       - labels:
         - approved
@@ -49,6 +51,7 @@ data:
         - gokula-krishna-dev/golang-gk
         - gokula-krishna-dev/golang-jx
         - gokula-krishna-dev/new-go-lang
+        - gokula-krishna-dev/py-jx
       - labels:
         - updatebot
         missingLabels:
@@ -65,6 +68,7 @@ data:
         - gokula-krishna-dev/golang-gk
         - gokula-krishna-dev/golang-jx
         - gokula-krishna-dev/new-go-lang
+        - gokula-krishna-dev/py-jx
       target_url: http://dashboard-jx.192.168.99.114.nip.io
 kind: ConfigMap
 metadata:
