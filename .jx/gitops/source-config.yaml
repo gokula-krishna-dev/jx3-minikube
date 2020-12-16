@@ -10,4 +10,5 @@ spec:
     repositories:
     - name: go-jks-test
     - name: go-jkx-test
+    - name: golang-jx
     scheduler: in-repo
