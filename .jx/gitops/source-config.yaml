@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: go-jks-test
+    - name: go-jkx-test
     scheduler: in-repo
