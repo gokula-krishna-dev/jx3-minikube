@@ -13,13 +13,10 @@ releases:
   name: golang-gk
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 - chart: dev/py-jx
   version: 0.0.1
   name: py-jx
-  forceNamespace: ""
-  skipDeps: null
+  values:
+  - jx-values.yaml
 templates: {}
-missingFileHandler: ""
 renderedvalues: {}
