@@ -9,6 +9,7 @@ data:
       enabled:
         gokula-krishna-dev/go-jks-test: true
         gokula-krishna-dev/go-jkx-test: true
+        gokula-krishna-dev/golang-2: true
         gokula-krishna-dev/golang-gk: true
         gokula-krishna-dev/golang-jx: true
         gokula-krishna-dev/jx3-minikube: true
@@ -26,6 +27,7 @@ data:
       merge_method:
         gokula-krishna-dev/go-jks-test: merge
         gokula-krishna-dev/go-jkx-test: merge
+        gokula-krishna-dev/golang-2: merge
         gokula-krishna-dev/golang-gk: merge
         gokula-krishna-dev/golang-jx: merge
         gokula-krishna-dev/jx3-minikube: merge
@@ -43,6 +45,7 @@ data:
         - gokula-krishna-dev/jx3-minikube
         - gokula-krishna-dev/go-jks-test
         - gokula-krishna-dev/go-jkx-test
+        - gokula-krishna-dev/golang-2
         - gokula-krishna-dev/golang-gk
         - gokula-krishna-dev/golang-jx
         - gokula-krishna-dev/new-go-lang
@@ -58,6 +61,7 @@ data:
         - gokula-krishna-dev/jx3-minikube
         - gokula-krishna-dev/go-jks-test
         - gokula-krishna-dev/go-jkx-test
+        - gokula-krishna-dev/golang-2
         - gokula-krishna-dev/golang-gk
         - gokula-krishna-dev/golang-jx
         - gokula-krishna-dev/new-go-lang

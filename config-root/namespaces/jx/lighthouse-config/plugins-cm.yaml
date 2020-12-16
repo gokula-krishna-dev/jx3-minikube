@@ -16,6 +16,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gokula-krishna-dev/golang-2
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gokula-krishna-dev/golang-gk
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -57,6 +61,22 @@ data:
       - dog
       - pony
       gokula-krishna-dev/go-jkx-test:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gokula-krishna-dev/golang-2:
       - approve
       - assign
       - blunderbuss
@@ -154,6 +174,9 @@ data:
       trusted_org: todo
     - repos:
       - gokula-krishna-dev/go-jkx-test
+      trusted_org: todo
+    - repos:
+      - gokula-krishna-dev/golang-2
       trusted_org: todo
     - repos:
       - gokula-krishna-dev/golang-gk
