@@ -1,0 +1,49 @@
+# Source: py-jx/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-16T10:28:12Z"
+  deletionTimestamp: null
+  name: 'py-jx-0.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 4bc1bb738228b36282a073eaa328533220d3d20e
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 30521f98fe702135abf5ff7bfb09e6c410a1f62c
+    - author:
+        email: krishnagokula5e@gmail.com
+        name: Gokula Krishna
+      branch: master
+      committer:
+        email: krishnagokula5e@gmail.com
+        name: Gokula Krishna
+      message: |
+        chore: Jenkins X build pack
+      sha: be59b27405bfb85b13bac868aa477718b61ec45f
+  gitHttpUrl: https://github.com/gokula-krishna-dev/py-jx
+  gitOwner: gokula-krishna-dev
+  gitRepository: py-jx
+  name: 'py-jx'
+  releaseNotesURL: https://github.com/gokula-krishna-dev/py-jx/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}

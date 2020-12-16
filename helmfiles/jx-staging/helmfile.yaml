@@ -13,5 +13,10 @@ releases:
   name: golang-gk
   values:
   - jx-values.yaml
+- chart: dev/py-jx
+  version: 0.0.1
+  name: py-jx
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
