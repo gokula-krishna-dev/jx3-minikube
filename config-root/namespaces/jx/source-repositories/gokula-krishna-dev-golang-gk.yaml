@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: gokula-krishna-dev
+    provider: github
+    repository: golang-gk
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: gokula-krishna-dev-golang-gk
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/gokula-krishna-dev/golang-gk.git
+  org: gokula-krishna-dev
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-gk
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/gokula-krishna-dev/golang-gk
