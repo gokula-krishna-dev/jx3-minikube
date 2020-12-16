@@ -14,4 +14,5 @@ spec:
     - name: golang-gk
     - name: golang-jx
     - name: new-go-lang
+    - name: py-jx
     scheduler: in-repo
