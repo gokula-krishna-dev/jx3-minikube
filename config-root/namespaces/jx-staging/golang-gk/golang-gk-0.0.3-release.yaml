@@ -2,9 +2,9 @@
 apiVersion: jenkins.io/v1
 kind: Release
 metadata:
-  creationTimestamp: "2020-12-16T08:55:26Z"
+  creationTimestamp: "2020-12-16T10:18:16Z"
   deletionTimestamp: null
-  name: 'golang-gk-0.0.2'
+  name: 'golang-gk-0.0.3'
   namespace: jx-staging
   labels:
     gitops.jenkins-x.io/pipeline: 'namespaces'
@@ -18,8 +18,8 @@ spec:
         email: jenkins-x@googlegroups.com
         name: jenkins-x-bot
       message: |
-        chore: release 0.0.2
-      sha: 0e1a5b1133f2bf004f6a692b370fda08810f7e59
+        chore: release 0.0.3
+      sha: 26957d5ec29d8d77e6a5a7882fff851d20348f99
     - author:
         email: jenkins-x@googlegroups.com
         name: jenkins-x-bot
@@ -29,20 +29,21 @@ spec:
         name: jenkins-x-bot
       message: |
         chore: add variables
-      sha: f44b6bf6670f9b0eeef67862938b02c6fee60e3e
+      sha: 9b3bffbebe13f19d5a7a66ccbfbcd995718ab59e
     - author:
-        email: 33853819+gokula-krishna-dev@users.noreply.github.com
+        email: krishnagokula5e@gmail.com
         name: Gokula Krishna
       branch: master
       committer:
-        email: noreply@github.com
-        name: GitHub
-      message: Update main.go
-      sha: 4e768d92234bcbd4dc6ce3052ab3a3b8d5f560ba
+        email: krishnagokula5e@gmail.com
+        name: Gokula Krishna
+      message: |
+        update
+      sha: 63912a0274c2ef7cc735356e6764802755a3a74a
   gitHttpUrl: https://github.com/gokula-krishna-dev/golang-gk
   gitOwner: gokula-krishna-dev
   gitRepository: golang-gk
   name: 'golang-gk'
-  releaseNotesURL: https://github.com/gokula-krishna-dev/golang-gk/releases/tag/v0.0.2
-  version: v0.0.2
+  releaseNotesURL: https://github.com/gokula-krishna-dev/golang-gk/releases/tag/v0.0.3
+  version: v0.0.3
 status: {}

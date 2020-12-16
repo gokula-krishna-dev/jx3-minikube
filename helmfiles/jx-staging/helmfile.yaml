@@ -9,7 +9,7 @@ repositories:
   url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
 releases:
 - chart: dev/golang-gk
-  version: 0.0.2
+  version: 0.0.3
   name: golang-gk
   values:
   - jx-values.yaml
