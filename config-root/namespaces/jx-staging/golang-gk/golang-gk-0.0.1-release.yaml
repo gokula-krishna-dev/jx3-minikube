@@ -1,0 +1,49 @@
+# Source: golang-gk/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-16T08:09:52Z"
+  deletionTimestamp: null
+  name: 'golang-gk-0.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 921908f486b1db8680cc79206f84f87f97201e06
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: b016eb5d57f3c1e37a0d6af88171331efc51cec2
+    - author:
+        email: krishnagokula5e@gmail.com
+        name: Gokula Krishna
+      branch: master
+      committer:
+        email: krishnagokula5e@gmail.com
+        name: Gokula Krishna
+      message: |
+        chore: Jenkins X build pack
+      sha: 35c8b7b0f6a7f9fb091097fb50cb4a2db67c691f
+  gitHttpUrl: https://github.com/gokula-krishna-dev/golang-gk
+  gitOwner: gokula-krishna-dev
+  gitRepository: golang-gk
+  name: 'golang-gk'
+  releaseNotesURL: https://github.com/gokula-krishna-dev/golang-gk/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}

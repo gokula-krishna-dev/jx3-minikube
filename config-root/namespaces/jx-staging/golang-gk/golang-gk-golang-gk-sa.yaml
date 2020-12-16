@@ -1,0 +1,8 @@
+# Source: golang-gk/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: golang-gk-golang-gk
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
