@@ -6,6 +6,22 @@ data:
       repos:
       - gokula-krishna-dev/jx3-minikube
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gokula-krishna-dev/go-jks-test
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gokula-krishna-dev/go-jkx-test
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gokula-krishna-dev/golang-jx
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gokula-krishna-dev/new-go-lang
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -20,8 +36,72 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      gokula-krishna-dev/go-jks-test:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gokula-krishna-dev/go-jkx-test:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gokula-krishna-dev/golang-jx:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       gokula-krishna-dev/jx3-minikube:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gokula-krishna-dev/new-go-lang:
       - approve
       - assign
       - blunderbuss
@@ -49,6 +129,20 @@ data:
     - repos:
       - gokula-krishna-dev/jx3-minikube
       trusted_org: todo
+    - repos:
+      - gokula-krishna-dev/go-jks-test
+      trusted_org: todo
+    - repos:
+      - gokula-krishna-dev/go-jkx-test
+      trusted_org: todo
+    - repos:
+      - gokula-krishna-dev/golang-jx
+      trusted_org: todo
+    - repos:
+      - gokula-krishna-dev/new-go-lang
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null

@@ -7,7 +7,11 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        gokula-krishna-dev/go-jks-test: true
+        gokula-krishna-dev/go-jkx-test: true
+        gokula-krishna-dev/golang-jx: true
         gokula-krishna-dev/jx3-minikube: true
+        gokula-krishna-dev/new-go-lang: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -19,7 +23,11 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        gokula-krishna-dev/go-jks-test: merge
+        gokula-krishna-dev/go-jkx-test: merge
+        gokula-krishna-dev/golang-jx: merge
         gokula-krishna-dev/jx3-minikube: merge
+        gokula-krishna-dev/new-go-lang: merge
       queries:
       - labels:
         - approved
@@ -31,6 +39,10 @@ data:
         - needs-rebase
         repos:
         - gokula-krishna-dev/jx3-minikube
+        - gokula-krishna-dev/go-jks-test
+        - gokula-krishna-dev/go-jkx-test
+        - gokula-krishna-dev/golang-jx
+        - gokula-krishna-dev/new-go-lang
       - labels:
         - updatebot
         missingLabels:
@@ -41,7 +53,11 @@ data:
         - needs-rebase
         repos:
         - gokula-krishna-dev/jx3-minikube
-      target_url: http://dashboard-jx.192.168.99.112.nip.io
+        - gokula-krishna-dev/go-jks-test
+        - gokula-krishna-dev/go-jkx-test
+        - gokula-krishna-dev/golang-jx
+        - gokula-krishna-dev/new-go-lang
+      target_url: http://dashboard-jx.192.168.99.114.nip.io
 kind: ConfigMap
 metadata:
   creationTimestamp: null
