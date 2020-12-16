@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: golang-gk
   labels:
-    chart: "golang-gk-0.0.2"
+    chart: "golang-gk-0.0.3"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     fabric8.io/expose: "true"

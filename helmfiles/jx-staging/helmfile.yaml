@@ -13,8 +13,5 @@ releases:
   name: golang-gk
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 templates: {}
-missingFileHandler: ""
 renderedvalues: {}
